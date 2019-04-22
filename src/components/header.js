@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, menuItems }) => (
   <header
     style={{
       background: `rebeccapurple`,
@@ -31,9 +31,9 @@ const Header = ({ siteTitle }) => (
       </div>
 
       <div>
-        <Link to="/about" style={{ color: `white`, textDecoration: `none`, margin: `0 5px`}}>About</Link>
-        <Link to="/portfolio" style={{ color: `white`, textDecoration: `none`, margin: `0 5px` }}>Portfolio</Link>
-        <Link to="/Blog" style={{ color: `white`, textDecoration: `none`, margin: `0 5px` }}>Blog</Link>
+        {menuItems.map(link =>
+          <Link to={link.link} style={{ color: `white`, textDecoration: `none`, margin: `0 5px` }}>{link.name}</Link>
+        )}
       </div>
     </div>
   </header>
