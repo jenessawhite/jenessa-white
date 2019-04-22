@@ -3,6 +3,20 @@ module.exports = {
     title: `Jenessa White`,
     description: `This is the personal website of Jenessa White. An athlete and developer living in the frozen tundra that is the Twin Cities.`,
     author: `@jnessview`,
+    menuItems: [
+      {
+        name: `About`,
+        link: `/about`
+      },
+      {
+        name: `Portfolio`,
+        link: `/portfolio`
+      },
+      {
+        name: `Blog`,
+        link: `/blog`
+      },
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
