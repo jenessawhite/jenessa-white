@@ -32,7 +32,12 @@ const Header = ({ siteTitle, menuItems }) => (
 
       <div>
         {menuItems.map(link =>
-          <Link to={link.link} style={{ color: `white`, textDecoration: `none`, margin: `0 5px` }}>{link.name}</Link>
+          <Link
+            key={link.name}
+            to={link.link}
+            style={{ color: `white`, textDecoration: `none`, margin: `0 5px` }}>
+            {link.name}
+          </Link>
         )}
       </div>
     </div>
