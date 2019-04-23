@@ -1,21 +1,22 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import Button from "../components/button"
+
+const heroImage = require('../images/jw-back-small.jpeg')
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO title="Home" keywords={[`Jenessa White`, `developer`, `front-end`, `front-end developer`, `Twin Cities`]} />
+
+    <div className="home-hero"
+      style={{ backgroundImage: "linear-gradient(rgba(0,128,128,.7),rgba(255,245,245,.4)),url("+heroImage+")" }}>
+      <div>
+        <h1>Hi people, I'm Jenessa White</h1>
+        <p>I'm a Front-End Developer in the Twin Cities</p>
+      </div>
     </div>
 
-    <Button type="primary" link="/about/">Go to about page</Button>
   </Layout>
 )
 

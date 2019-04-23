@@ -8,8 +8,10 @@ const PortfolioPage = () => (
   <Layout>
     <SEO title="Portfolio" />
     <h1>My Portfolio</h1>
-    <p>Welcome to my portfolio</p>
-    <Link to="/">Go back to the homepage</Link>
+    <p>
+    Want to know what else I've built? Check out some of the projects I've built or worked on below.
+    Most of what I build right now is at <Link to="https://softwareforgood.com">Software For Good</Link>{` `}since that's my job. I even write for the <Link to="https://softwareforgood.com/blog">blog</Link> sometimes too!
+    </p>
   </Layout>
 )
 
