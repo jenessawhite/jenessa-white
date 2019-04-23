@@ -5,6 +5,10 @@ module.exports = {
     author: `@jnessview`,
     menuItems: [
       {
+        name: `Home`,
+        link: `/`
+      },
+      {
         name: `About`,
         link: `/about`
       },
@@ -49,6 +53,14 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Muli', 'Montserrat:300,500']
+        }
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
