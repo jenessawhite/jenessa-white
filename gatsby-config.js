@@ -5,20 +5,28 @@ module.exports = {
     author: `@jnessview`,
     menuItems: [
       {
-        name: `Home`,
-        link: `/`
-      },
-      {
         name: `About`,
         link: `/about`
       },
       {
-        name: `Portfolio`,
-        link: `/portfolio`
+        name: `Projects`,
+        link: `/projects`
       },
       {
-        name: `Blog`,
-        link: `/blog`
+        name: `Contact`,
+        link: `/contact`
+      },
+    ],
+    socialLinks: [
+      {
+        name: `Twitter`,
+        link: `https://twitter.com/jnessview`,
+        icon: `twitter`
+      },
+      {
+        name: `Instagram`,
+        link: `https://instagram.com/thenessview`,
+        icon: `instagram`
       },
     ]
   },
@@ -48,8 +56,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/posts`,
-        name: "posts",
+        path: `${__dirname}/src/projects`,
+        name: "projects",
       },
     },
     `gatsby-transformer-remark`,
