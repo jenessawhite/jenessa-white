@@ -21,7 +21,6 @@ const ContactPage = () => (
       }
     `}
     render={data => {
-      console.log(data.site.siteMetadata.socialLinks)
       return (
         <Layout>
           <SEO title="Contact" />
