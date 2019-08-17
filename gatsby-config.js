@@ -28,6 +28,16 @@ module.exports = {
         link: `https://instagram.com/thenessview`,
         icon: `instagram`
       },
+      {
+        name: `LinkedIn`,
+        link: `https://www.linkedin.com/in/jenessawhite`,
+        icon: `linkedin`
+      },
+      {
+        name: `Github`,
+        link: `https://github.com/jenessawhite`,
+        icon: `github`
+      }
     ]
   },
   plugins: [
