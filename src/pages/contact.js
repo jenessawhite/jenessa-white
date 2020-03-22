@@ -50,8 +50,3 @@ const ContactPage = () => (
 )
 
 export default ContactPage
-// export default ({ data }) => {
-//   console.log(data)
-//   return (
-
-// )}
