@@ -23,7 +23,6 @@ const Layout = ({ children }) => (
       query SiteInfoQuery {
         site {
           siteMetadata {
-            title
             menuItems {
               name
               link
@@ -35,16 +34,23 @@ const Layout = ({ children }) => (
             }
           }
         }
+        logo: file(relativePath: { eq: "jw_logo.png" }) {
+          childImageSharp { # Specify the image processing specifications right in the query.
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} menuItems={data.site.siteMetadata.menuItems} socialLinks={data.site.siteMetadata.socialLinks} />
+        <Header menuItems={data.site.siteMetadata.menuItems} socialLinks={data.site.siteMetadata.socialLinks} logo={data.logo} />
         <main className="site-content">
           {children}
         </main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built using
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
