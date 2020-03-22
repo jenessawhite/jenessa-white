@@ -57,10 +57,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#150046`,
+        theme_color: `#150046`,
         display: `minimal-ui`,
-        icon: `src/images/jw-favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/jw_logo.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -76,6 +76,14 @@ module.exports = {
       options: {
         google: {
           families: ['Muli', 'Montserrat:300,500']
+        }
+      }
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images/ // See below to configure properly
         }
       }
     }
