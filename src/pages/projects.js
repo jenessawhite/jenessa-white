@@ -8,7 +8,8 @@ export default ({ data }) => (
   <Layout>
     <SEO title="Projects" />
     <div className="content-wrapper">
-      <h1>My Work</h1>
+      <h1 className="mb-0">My Work</h1>
+      <div className="border-blue mr-auto"></div>
       <p>
         Want to know what else I've built? Check out some of the projects I've built or worked on below.
         Most of what I build right now is at <a href="https://softwareforgood.com" target="_blank" rel="noopener noreferrer">Software For Good</a>{` `}since that's my job. I even write for the <a href="https://softwareforgood.com/blog" target="_blank" rel="noopener noreferrer">blog</a> sometimes too!
