@@ -60,7 +60,7 @@ const IndexPage = () => {
       <div className="container dev-wrap">
         <div className="row">
           <div className="col-12 text-center">
-            <h2 className="font-fugaz mb-md-0">I'm a software developer.</h2>
+            <h2 className="font-fugaz mb-0">I'm a software developer.</h2>
             <div className="border-blue mx-auto"></div>
             <p style={{ maxWidth: '500px', margin: '0 auto' }}>
               I’ve been a developer for 3+ years and have worked on a variety of projects,
@@ -73,7 +73,7 @@ const IndexPage = () => {
       <div className="container football-wrap" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h2 className="font-fugaz mb-md-0">I'm a football player.</h2>
+            <h2 className="font-fugaz mb-0">I'm a football player.</h2>
             <div className="border-blue mr-auto"></div>
 
             <p>
@@ -94,7 +94,7 @@ const IndexPage = () => {
       <div className="container home-cta">
         <div className="row justify-content-center">
           <div className="col-12 col-md-6 text-center">
-            <h2 className="font-fugaz mb-md-0">Want to learn more? Connect?</h2>
+            <h2 className="font-fugaz mb-0">Want to learn more? Connect?</h2>
             <div className="border-blue mx-auto"></div>
 
             <Link key={'about me'} to={'/about'} className="underline-from-center">About Me</Link>
