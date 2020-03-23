@@ -39,7 +39,10 @@ const ConnectPage = () => (
               <div className="row mt-4">
                 <div className="col-12">
                   <p>
-                    I am open to talking about tons of things! I'd love to discuss attending trainings, confrences, workshops, speaking gigs, podcasts, etc. <strong>However I'm not open to recruiters, so if you are one, please don't reach out.</strong>
+                    Currently, I am actively looking for a new full-time position. If you are interested in hiring me <a href="#connect">I'd love to talk to you!</a>
+                  </p>
+                  <p>
+                    I am also open to talking about other things! I'd love to discuss attending trainings, conferences, workshops, speaking gigs, podcasts, etc.
                   </p>
                   <p>
                     So, if you would like to talk about any of the above feel free to fill out the form below. I’ll get back to you as soon as I can!
@@ -56,7 +59,7 @@ const ConnectPage = () => (
                   </div>
                 </div>
 
-                <div className="col-12 position-relative d-block" style={{ height: '700px' }}>
+                <div className="col-12 position-relative d-block" style={{ height: '700px' }} id="connect">
                   <ReactTypeformEmbed url="https://jenessawhite.typeform.com/to/LocBUf" popup={false} />
                 </div>
               </div>
