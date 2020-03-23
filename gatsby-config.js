@@ -13,8 +13,8 @@ module.exports = {
         link: `/projects`
       },
       {
-        name: `Contact`,
-        link: `/contact`
+        name: `Conenct`,
+        link: `/connect`
       },
     ],
     socialLinks: [
@@ -75,7 +75,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Muli', 'Montserrat:300,500']
+          families: ['Catamaran', 'Fugaz One']
         }
       }
     },
