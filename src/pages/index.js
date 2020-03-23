@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
-    query MyQuery {
+    query imageQuery {
       headshot: file(relativePath: { eq: "jw_kneel_cropped_small.jpg" }) {
         childImageSharp {
           fluid {
@@ -24,8 +24,6 @@ const IndexPage = () => {
       }
     }
   `)
-  console.log(data);
-  
 
   return (
     <Layout>
