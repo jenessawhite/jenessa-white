@@ -13,7 +13,7 @@ module.exports = {
         link: `/projects`
       },
       {
-        name: `Conenct`,
+        name: `Connect`,
         link: `/connect`
       },
     ],
