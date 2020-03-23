@@ -16,8 +16,13 @@ h1,
   font-family: 'Fugaz One', cursive;
 }
 
-a:hover {
+a {
   color: #4A1942;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #040404;
   text-decoration: none;
 }
 
@@ -31,6 +36,32 @@ badge {
   border-radius: 7px;
   font-weight: 700;
   color: #040404;
+}
+
+.btn-primary {
+  background: #4A1942;
+  border-color: #4A1942;
+  border-radius: 7px;
+  font-weight: 700;
+  color: #f8f8f8;
+}
+
+.btn-primary:hover {
+  background: rgb(41, 14, 36);
+  border-color: rgb(41, 14, 36);
+}
+
+.btn-secondary {
+  background: #008F90;
+  border-color: #008F90;
+  border-radius: 7px;
+  font-weight: 700;
+  color: #040404;
+}
+
+.btn-secondary:hover {
+  background: rgb(0, 112, 112);
+  border-color: rgb(0, 112, 112);
 }
 
 .gatsby-image-wrapper {
@@ -157,9 +188,13 @@ nav a {
   padding-top: 200px;
 }
 
-.football-wrap,
+.football-wrap {
+  padding: 95px 0 70px;
+}
+
 .home-cta {
-  padding: 95px 0 50px;
+  background: rgba(72, 25, 64, 0.15);
+  padding: 95px 0;
 }
 
 .social-link {

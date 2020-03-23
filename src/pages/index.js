@@ -91,14 +91,16 @@ const IndexPage = () => {
       </div>
 
 
-      <div className="container home-cta">
+      <div className="container-fluid home-cta">
         <div className="row justify-content-center">
           <div className="col-12 col-md-6 text-center">
             <h2 className="font-fugaz mb-0">Want to learn more? Connect?</h2>
             <div className="border-blue mx-auto"></div>
+          </div>
 
-            <Link key={'about me'} to={'/about'} className="underline-from-center">About Me</Link>
-            <Link key={'connect'} to={'/connect'} className="underline-from-center">Connect with Me</Link>
+          <div className="col-12 mt-4 d-flex flex-column flex-md-row justify-content-center">
+            <Link key={'about me'} to={'/about'} className="btn btn-primary mr-md-3 mb-3 mb-md-0">About Me</Link>
+            <Link key={'connect'} to={'/connect'} className="btn btn-secondary">Connect with Me</Link>
           </div>
         </div>
       </div>
