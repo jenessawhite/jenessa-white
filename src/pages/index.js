@@ -48,7 +48,7 @@ const IndexPage = () => {
             <div className="col-md-6 align-items-center text-right"
               data-aos="fade-up"
             >
-              <h1>👋🏾 Yo, I'm Jenessa!</h1>
+              <h1><span aria-label="wave emoji" role="img">👋🏾</span> Yo, I'm Jenessa!</h1>
 
               <p>I’m a developer & football player. <br />
                 A DIY enthusiast & podcast procurer.</p>
