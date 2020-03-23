@@ -15,11 +15,6 @@ h1,
   font-family: 'Fugaz One', cursive;
 }
 
-h2,
-h3 {
-  font-family: 'Muli', sans-serif;
-}
-
 a:hover {
   color: #4A1942;
   text-decoration: none;
