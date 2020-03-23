@@ -11,7 +11,8 @@ import { StaticQuery, graphql } from "gatsby"
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Header from "./header"
 import "./layout.css"
@@ -52,10 +53,26 @@ const Layout = ({ children }) => (
         <main className="site-content">
           {children}
         </main>
-        <footer>
-          © {new Date().getFullYear()}, Built using
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer className="container-fluid">
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-2">
+              <div className="d-flex social-wrap mb-2 mb-md-4 justify-content-center">
+                {data.site.siteMetadata.socialLinks.map(social => (
+                  <a key={social.name} href={social.link} target="_blank" rel="noopener noreferrer" className="social-link">
+                    <FontAwesomeIcon icon={['fab', social.icon]} color="#fdfdfd" />
+                  </a>
+                ))}
+              </div>
+
+              <p>
+                © Copyright {new Date().getFullYear()} Jenessa White.
+                <br/>
+                All rights reserved.
+                <br />
+                Built using {` `} <span><a href="https://www.gatsbyjs.org">Gatsby</a></span>
+              </p>
+            </div>
+          </div>
         </footer>
       </>
     )}
