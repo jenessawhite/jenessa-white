@@ -28,7 +28,7 @@ const AboutPage = () => {
               <h1 className="mb-0">About Me</h1>
               <div className="border-blue mr-auto"></div>
 
-              <p className="font-zilla text-xl">I am a Software Developer based in the Twin Cities (where yes it gets cold in the winter, but we have summers y{`'`}all). I enjoy creating simple, beautiful and intuitive websites that solve problems. I've worked at digital agencies & start-ups (both early stage and growth stage).</p>
+              <p className="font-zilla text-xl">I am a Software Developer based in the Twin Cities (where, yes, it gets cold in the winter, but we have summers y{`'`}all). I enjoy creating simple, beautiful and intuitive websites that solve problems. I've worked at digital agencies & start-ups (both early stage and growth stage).</p>
             </div>
             <div className="col-md-3">
               <Img
@@ -40,7 +40,7 @@ const AboutPage = () => {
           </div>
           <div className="row mt-4">
             <div className="col-12">
-              <p>Outside of work, but still in the tech world, I enjoy attending conferences and meet-ups. I've had the privelege of being sponsored to go to both JSConf HI & DevOpsDays MSP. I've also been a part of the Minne* unconference <a href="https://minnestar.org/minnebar/" target="_blank" rel="noopener noreferrer">MinneBar</a> and presented twice. I think my favorite tech related thing to do though is be on panels. Panels give me a chance to have conversations with others in my field, even if we have different roles, and learn while discussing a number of things.</p>
+              <p>Outside of work, but still in the tech world, I enjoy attending conferences and meet-ups. I've had the privilege of being sponsored to go to both JSConf HI & DevOpsDays MSP. I've also been a part of the Minne* unconference <a href="https://minnestar.org/minnebar/" target="_blank" rel="noopener noreferrer">MinneBar</a> and presented twice. I think my favorite tech related thing to do though is being on panels. Panels give me a chance to have conversations with others in my field, even if we have different roles, and learn while discussing a number of things.</p>
 
               <p>I like to live a pretty fulfilling life outside of the tech world too...</p>
 

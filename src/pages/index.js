@@ -71,7 +71,7 @@ const IndexPage = () => {
             <div className="border-blue mr-auto"></div>
 
             <p>
-            I’m also in my third season playing for the MN Vixen, the pro women’s american football team in Minnesota. I play Tight End, which is the best position on the field, trust me.
+            I’m also in my third season playing for the MN Vixen, the professional women’s American Football team in Minnesota. I play Tight End, which is the best position on the field, trust me.
             </p>
           </div>
 
