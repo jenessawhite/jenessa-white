@@ -33,11 +33,7 @@ const IndexPage = () => {
         <div className="container">
           <div className="row justify-content-end align-items-center">
             <div className="col-md-5 pb-4 pb-md-0">
-              <div
-                data-aos="zoom-in"
-                data-aos-anchor-placement="top-center"
-                style={{ maxWidth: '360px' }}
-              >
+              <div style={{ maxWidth: '360px' }}>
                 <Img
                   fluid={data.headshot.childImageSharp.fluid}
                   alt="Jenessa kneeling and leaning on a stool looking up and to the right."
@@ -45,9 +41,7 @@ const IndexPage = () => {
               </div>
             </div>
 
-            <div className="col-md-6 align-items-center text-right"
-              data-aos="fade-up"
-            >
+            <div className="col-md-6 align-items-center text-right">
               <h1><span aria-label="wave emoji" role="img">👋🏾</span> Yo, I'm Jenessa!</h1>
 
               <p>I’m a developer & football player. <br />
@@ -70,7 +64,7 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <div className="container football-wrap" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <div className="container football-wrap">
         <div className="row align-items-center">
           <div className="col-md-6">
             <h2 className="font-fugaz mb-0">I'm a football player.</h2>

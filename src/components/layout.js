@@ -10,8 +10,6 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Header from "./header"
@@ -19,7 +17,6 @@ import "./layout.css"
 import "../styles/index.css"
 
 library.add(fab);
-AOS.init();
 
 const Layout = ({ children }) => (
   <StaticQuery
