@@ -1,11 +1,12 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const ContactPage = () => (
+const ConnectPage = () => (
   <StaticQuery
     query={graphql`
       query SocialLinkQuery {
@@ -25,9 +26,10 @@ const ContactPage = () => (
         <Layout>
           <SEO title="Contact" />
           <div className="content-wrapper">
-            <h1>Contact</h1>
+            <h1>Let{`'`}s Connect!</h1> 
+            <badge>Looking for work!</badge>
             <p>
-              I am open to talking about tons of things! I'd love to discuss attending trainings, confrences, workshops, speaking gigs, podcasts, etc.  <strong>However I'm not open to recruiters, so if you are one, please don't reach out.</strong>
+              I am open to talking about tons of things! I'd love to discuss attending trainings, confrences, workshops, speaking gigs, podcasts, etc. <strong>However I'm not open to recruiters, so if you are one, please don't reach out.</strong>
             </p>
             <p>
               So, if you would like to talk about any of the above feel free to <a href="https://jenessawhite.typeform.com/to/LocBUf" target="_blank" rel="noopener noreferrer">fill out this form</a>. I’ll get back to you as soon as I can!
@@ -42,6 +44,9 @@ const ContactPage = () => (
                 </a>
               ))}
             </div>
+            <div style={{ height:'700px', display:'block',position:'relative'}}>
+              <ReactTypeformEmbed url="https://jenessawhite.typeform.com/to/LocBUf" popup={false}/>
+            </div>
           </div>
         </Layout>
       )
@@ -49,4 +54,4 @@ const ContactPage = () => (
   />
 )
 
-export default ContactPage
+export default ConnectPage
