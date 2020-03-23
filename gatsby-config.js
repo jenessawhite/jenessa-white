@@ -75,7 +75,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Catamaran', 'Fugaz One']
+          families: ['Catamaran', 'Fugaz One', 'Zilla Slab']
         }
       }
     },

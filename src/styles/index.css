@@ -6,6 +6,10 @@ body {
   font-weight: 400;
 }
 
+.font-zilla {
+  font-family: 'Zilla Slab', serif;
+}
+
 h1,
 .font-fugaz {
   font-family: 'Fugaz One', cursive;
@@ -19,6 +23,10 @@ h3 {
 a:hover {
   color: #4A1942;
   text-decoration: none;
+}
+
+.text-xl {
+  font-size: 22px;
 }
 
 .gatsby-image-wrapper {
@@ -135,9 +143,10 @@ nav a {
 }
 
 .content-wrapper {
+  font-size: 18px;
   margin: 0 auto;
   max-width: 1100px;
-  padding: 20px 10px;
+  padding: 40px 10px;
 }
 
 .dev-wrap {
@@ -186,6 +195,10 @@ footer .social-link svg {
     padding: 8px;
     font-size: 16px;
     margin: 0 3px;
+  }
+
+  .content-wrapper {
+    padding: 20px 10px;
   }
 
   .home-hero {
