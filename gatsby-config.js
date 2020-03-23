@@ -8,10 +8,10 @@ module.exports = {
         name: `About`,
         link: `/about`
       },
-      {
-        name: `Projects`,
-        link: `/projects`
-      },
+      // {
+      //   name: `Projects`,
+      //   link: `/projects`
+      // },
       {
         name: `Connect`,
         link: `/connect`
@@ -24,19 +24,14 @@ module.exports = {
         icon: `twitter`
       },
       {
-        name: `Instagram`,
-        link: `https://instagram.com/thenessview`,
-        icon: `instagram`
+        name: `Github`,
+        link: `https://github.com/jenessawhite`,
+        icon: `github`
       },
       {
         name: `LinkedIn`,
         link: `https://www.linkedin.com/in/jenessawhite`,
         icon: `linkedin`
-      },
-      {
-        name: `Github`,
-        link: `https://github.com/jenessawhite`,
-        icon: `github`
       }
     ]
   },
