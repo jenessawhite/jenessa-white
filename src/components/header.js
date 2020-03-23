@@ -15,7 +15,7 @@ const Header = props => {
             </Link>
           </div>
 
-          <nav className="col-8 justify-content-center">
+          <nav className="col-8 d-flex justify-content-center">
             {props.menuItems.map(page => (
               <Link key={page.name} to={page.link} className="underline-from-center">
                 {page.name}
