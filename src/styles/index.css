@@ -144,11 +144,44 @@ nav a {
   padding-top: 200px;
 }
 
-.football-wrap {
+.football-wrap,
+.home-cta {
   padding: 95px 0 50px;
 }
 
+footer {
+  background-color: #4A1942;
+  color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: flex-end;
+  min-height: 250px;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a,
+footer .social-link svg {
+  color: #f8f8f8;
+  font-weight: 700;
+}
+
+footer a:hover,
+footer .social-link:hover svg {
+  color: #FCBA04;
+}
+
+footer .social-link svg {
+  font-size: 25px;
+}
+
 @media screen and (max-width:700px) {
+  .brand .gatsby-image-wrapper {
+    height: 55px;
+    width: 55px;
+  }
+
   nav a {
     padding: 8px;
     font-size: 16px;
@@ -171,28 +204,13 @@ nav a {
     padding: 50px 10px;
   }
 
-  .football-wrap {
+  .football-wrap,
+  .home-cta {
     padding: 35px 10px;
   }
-}
 
-footer {
-  background-color: #008080;
-  color: #f7f7f7;
-  font-size: 16px;
-  padding: 1rem;
-  text-align: center;
-}
-
-footer a {
-  color: #fff;
-  font-weight: 700;
-}
-
-footer a:hover {
-  color: #FF8749;
-}
-
-.social-link {
-  background-color: blue;
+  footer {
+    min-height: 150px;
+    padding: 25px 10px;
+  }
 }
