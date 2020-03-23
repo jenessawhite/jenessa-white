@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
@@ -42,7 +42,7 @@ const IndexPage = () => {
               >
                 <Img
                   fluid={data.headshot.childImageSharp.fluid}
-                  alt="A corgi smiling happily"
+                  alt="Jenessa kneeling and leaning on a stool looking up and to the right."
                 />
               </div>
             </div>
@@ -50,7 +50,7 @@ const IndexPage = () => {
             <div className="col-md-6 align-items-center text-right"
               data-aos="fade-up"
             >
-              <h1>👋🏾 Yo, I'm Jenessa White</h1>
+              <h1>👋🏾 Yo, I'm Jenessa!</h1>
 
               <p>I’m a developer & football player. <br />
                 A DIY enthusiast & podcast procurer.</p>
@@ -72,12 +72,9 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <div className="container football-wrap">
-        <div className="row justify-content-end align-items-center">
-
-          <div className="col-md-6 align-items-center"
-            data-aos="fade-up"
-          >
+      <div className="container football-wrap" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <div className="row align-items-center">
+          <div className="col-md-6">
             <h2 className="font-fugaz mb-md-0">I'm a football player.</h2>
             <div className="border-blue mr-auto"></div>
 
@@ -86,11 +83,24 @@ const IndexPage = () => {
             </p>
           </div>
 
-          <div className="col-md-6 pb-4 pb-md-0 text-right" data-aos="fade-up">
+          <div className="col-md-6 pb-4 pb-md-0 text-right">
             <Img
               fluid={data.footballImg.childImageSharp.fluid}
-              alt="A corgi smiling happily"
+              alt="Jenessa #87 blocking STL player #24"
             />
+          </div>
+        </div>
+      </div>
+
+
+      <div className="container home-cta">
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-6 text-center">
+            <h2 className="font-fugaz mb-md-0">Want to learn more? Connect?</h2>
+            <div className="border-blue mx-auto"></div>
+
+            <Link key={'about me'} to={'/about'} className="underline-from-center">About Me</Link>
+            <Link key={'connect'} to={'/connect'} className="underline-from-center">Connect with Me</Link>
           </div>
         </div>
       </div>
