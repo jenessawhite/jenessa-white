@@ -4,6 +4,7 @@ body {
   font-family: 'Catamaran', sans-serif;
   font-size: 21px;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 .font-zilla {
@@ -22,6 +23,14 @@ a:hover {
 
 .text-xl {
   font-size: 22px;
+}
+
+badge {
+  padding: 2px 7px;
+  background: #FCBA04;
+  border-radius: 7px;
+  font-weight: 700;
+  color: #040404;
 }
 
 .gatsby-image-wrapper {
@@ -151,6 +160,21 @@ nav a {
 .football-wrap,
 .home-cta {
   padding: 95px 0 50px;
+}
+
+.social-link {
+  margin-right: 7px;
+}
+
+.social-link svg {
+  color: #4A1942;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+.social-link:hover svg {
+  color: #FCBA04;
 }
 
 footer {
