@@ -31,7 +31,6 @@ const ConnectPage = () => (
                 <div className="col-md-8">
                   <h1 className="mb-0">Let{`'`}s Connect!</h1>
                   <div className="border-blue mr-auto"></div>
-                  <badge className="shadow">Looking for work!</badge>
                 </div>
                 <div className="col-md-3"></div>
               </div>
@@ -39,10 +38,7 @@ const ConnectPage = () => (
               <div className="row mt-4">
                 <div className="col-12">
                   <p>
-                    Currently, I am actively looking for a new full-time position. If you are interested in hiring me <a href="#connect">I'd love to talk to you!</a>
-                  </p>
-                  <p>
-                    I am also open to talking about other things! I'd love to discuss attending trainings, conferences, workshops, speaking gigs, podcasts, etc.
+                    I am open to talking about other things! I'd love to discuss attending trainings, conferences, workshops, speaking gigs, podcasts, etc.
                   </p>
                   <p>
                     So, if you would like to talk about any of the above feel free to fill out the form below. I’ll get back to you as soon as I can!
